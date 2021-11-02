@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+   background-color: rgb(37, 44, 51);
+
+}
+header{
+  background-color: #48C5CE;
+  color: #fff;
+  text-align: center;
+  padding: 7px;
+}
+header h1{
+  font-size: 26px;
+}
+main{
+  max-width: 1000px;
+  margin: auto;
+}
+section.container-body{
+height: 60vh;
+background-image: url(assets/plateia.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+section form{
+  position: relative;
+  float: right;
+  text-align: center;
+  margin: 2% ;
+  width: 260px;
+  height: 370px;
+  background-color: #c0c0c0;
+  opacity: 90%;
+  border-radius: 3px;
+}
+  section form h1,p{
+    font-size: 17px;
+    margin: 17px 5px;
+    text-align: justify;
+  }
+  section form h1{
+    font-weight: 800;
+  }
+input, select{
+  margin: 5px 0;
+  background-color:  #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  width: 240px;
+}
+input[type="submit"]{
+  background-color: #48C5CE;
+  color: #fff;
+  padding: 10px;
+}
+footer{
+  padding: 2% 18%; ;
+}
+footer figure{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: justify;
+  
+}
+footer figure img{
+  width: 200px;
+  height: 220px;
+  border-radius: 4px;
+}
+footer figure figcaption {
+  margin-left: 20px;
+  color: #fff;
+}
